@@ -1,0 +1,56 @@
+NON-DISCLOSURE AND CONFIDENTIALITY AGREEMENT
+
+This Non-Disclosure and Confidentiality Agreement ("Agreement") is entered into as of the 1st day of March, 2024 ("Effective Date") by and between:
+
+Orion Technologies Inc., a corporation incorporated under the laws of the State of Delaware, with its principal place of business at 450 Innovation Drive, Suite 300, San Francisco, California 94107 ("Disclosing Party"),
+
+and
+
+Alexandra J. Mercer, an individual residing at 218 Maple Street, Austin, Texas 78701 ("Receiving Party").
+
+RECITALS
+
+WHEREAS, the Disclosing Party possesses certain confidential and proprietary information relating to its software products, business operations, and strategic plans; and
+
+WHEREAS, the Receiving Party desires to receive certain of such confidential information for the purpose of evaluating a potential business relationship between the parties (the "Purpose");
+
+NOW, THEREFORE, in consideration of the mutual covenants contained herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+1. DEFINITION OF CONFIDENTIAL INFORMATION
+
+"Confidential Information" means any data or information that is proprietary to the Disclosing Party and not generally known to the public, whether in tangible or intangible form, including but not limited to: (a) technical data, trade secrets, know-how, research, product plans, products, services, and customer lists; (b) financial information, pricing strategies, and business forecasts; (c) software, algorithms, source code, and object code; (d) marketing plans, product roadmaps, and strategic initiatives; and (e) any other information that is designated as "Confidential" at the time of disclosure or that reasonably should be understood to be confidential given the nature of the information and circumstances surrounding its disclosure.
+
+Confidential Information shall not include information that: (i) is or becomes publicly known through no breach of this Agreement by the Receiving Party; (ii) was in the Receiving Party's possession prior to disclosure; (iii) is independently developed by the Receiving Party without use of the Confidential Information; or (iv) is required to be disclosed by law or court order, provided the Receiving Party provides prompt written notice to the Disclosing Party.
+
+2. OBLIGATIONS OF THE RECEIVING PARTY
+
+The Receiving Party agrees to: (a) hold the Confidential Information in strict confidence using no less than reasonable care; (b) not disclose any Confidential Information to third parties without the prior written consent of the Disclosing Party; (c) use the Confidential Information solely for the Purpose; and (d) limit access to Confidential Information to those employees, contractors, or agents who have a need to know and who are bound by confidentiality obligations at least as protective as those herein.
+
+3. TERM AND TERMINATION
+
+This Agreement shall commence on the Effective Date and shall remain in effect for a period of two (2) years, unless earlier terminated by either party upon thirty (30) days' written notice to the other party. Upon termination or expiration, the Receiving Party shall promptly return or destroy all Confidential Information and certify such destruction in writing upon request.
+
+4. NO LICENSE
+
+Nothing in this Agreement shall be construed as granting any rights, by license or otherwise, to any Confidential Information, or to any invention or patent, copyright, trademark, or other intellectual property right of the Disclosing Party.
+
+5. GOVERNING LAW AND DISPUTE RESOLUTION
+
+This Agreement shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of law provisions. Any dispute arising under or in connection with this Agreement shall be resolved by binding arbitration in San Francisco, California, under the rules of the American Arbitration Association.
+
+6. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior and contemporaneous discussions, representations, and agreements, whether oral or written.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+ORION TECHNOLOGIES INC.
+By: ___________________________
+Name: Jonathan R. Ellis
+Title: Chief Executive Officer
+Date: March 1, 2024
+
+RECEIVING PARTY
+By: ___________________________
+Name: Alexandra J. Mercer
+Date: March 1, 2024
