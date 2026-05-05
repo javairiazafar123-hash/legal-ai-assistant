@@ -36,7 +36,7 @@ RUN mkdir -p /app/chroma_db /app/uploads
 
 # ── Environment defaults (override at runtime) ─────────────────────────────────
 ENV LLM_API_URL=http://localhost:8000/v1
-ENV MODEL_NAME=meta-llama/Llama-3.2-3B-Instruct
+ENV MODEL_NAME=Qwen/Qwen2.5-3B-Instruct
 ENV EMBEDDING_MODEL=all-MiniLM-L6-v2
 ENV CHROMA_PERSIST_DIR=/app/chroma_db
 ENV TOP_K=5

@@ -78,7 +78,7 @@ Documents are split into overlapping chunks to preserve context at boundaries.
 │                                       │                         │
 │                                       ▼                         │
 │                               vLLM Endpoint                     │
-│                         (meta-llama/Llama-3.2-3B)              │
+│                         (Qwen/Qwen2.5-3B-Instruct)             │
 │                                       │                         │
 │                                       ▼                         │
 │                              Answer + Sources                   │
@@ -96,7 +96,7 @@ Documents are split into overlapping chunks to preserve context at boundaries.
 - **Top-K:** 5 most relevant chunks per query
 
 ### 3.4 LLM
-- **Primary:** `meta-llama/Llama-3.2-3B-Instruct` served via vLLM
+- **Primary:** `Qwen/Qwen2.5-3B-Instruct` served via vLLM
 - **Demo fallback:** Groq-hosted `llama3-8b-8192` (free API)
 - **Prompt template:**
 ```
@@ -154,7 +154,7 @@ bash scripts/run_streamlit.sh # Streamlit on :8501
 3. Use template: `vLLM OpenAI-Compatible Server`
 4. Set environment:
    ```
-   MODEL=meta-llama/Llama-3.2-3B-Instruct
+   MODEL=Qwen/Qwen2.5-3B-Instruct
    ```
 5. Expose port `8000`
 6. Copy the pod URL and set in your app:
