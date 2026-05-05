@@ -8,10 +8,10 @@ import os
 
 # ─── LLM Configuration ────────────────────────────────────────────────────────
 
-LLM_API_URL: str = os.getenv("LLM_API_URL", "http://localhost:8000/v1")
+LLM_API_URL: str = os.getenv("LLM_API_URL", "https://wheat-greedily-sandbank.ngrok-free.dev/v1")
 """OpenAI-compatible API base URL (vLLM, OpenAI, etc.)"""
 
-MODEL_NAME: str = os.getenv("MODEL_NAME", "meta-llama/Llama-3.2-3B-Instruct")
+MODEL_NAME: str = os.getenv("MODEL_NAME", "Qwen/Qwen2.5-3B-Instruct")
 """LLM model identifier passed to the API"""
 
 LLM_API_KEY: str = os.getenv("LLM_API_KEY", "dummy-key")

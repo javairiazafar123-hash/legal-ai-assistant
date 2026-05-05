@@ -37,7 +37,7 @@ This project builds a **Legal AI Assistant** that allows users to upload legal d
 |---|---|
 | Chunk size | 500 characters |
 | Chunk overlap | 50 characters |
-| Splitter | `RecursiveCharacterTextSplitter` |
+| Splitter | Custom character-window splitter implemented in `app/rag_pipeline.py` |
 
 Documents are split into overlapping chunks to preserve context at boundaries.
 
@@ -78,7 +78,7 @@ Documents are split into overlapping chunks to preserve context at boundaries.
 │                                       │                         │
 │                                       ▼                         │
 │                               vLLM Endpoint                     │
-│                         (meta-llama/Llama-3.2-3B)              │
+│                         (Qwen/Qwen2.5-3B-Instruct)             │
 │                                       │                         │
 │                                       ▼                         │
 │                              Answer + Sources                   │
@@ -96,7 +96,7 @@ Documents are split into overlapping chunks to preserve context at boundaries.
 - **Top-K:** 5 most relevant chunks per query
 
 ### 3.4 LLM
-- **Primary:** `meta-llama/Llama-3.2-3B-Instruct` served via vLLM
+- **Primary:** `Qwen/Qwen2.5-3B-Instruct` served via vLLM
 - **Demo fallback:** Groq-hosted `llama3-8b-8192` (free API)
 - **Prompt template:**
 ```
@@ -119,7 +119,7 @@ Answer:
 |---|---|
 | Frontend UI | Streamlit + HTML/CSS/JS |
 | API Backend | FastAPI (Python) |
-| RAG Pipeline | LangChain |
+| RAG Pipeline | Custom Python pipeline (`app/rag_pipeline.py`) |
 | Embeddings | sentence-transformers |
 | Vector Store | ChromaDB |
 | LLM Serving | vLLM (OpenAI-compatible) |
@@ -154,7 +154,7 @@ bash scripts/run_streamlit.sh # Streamlit on :8501
 3. Use template: `vLLM OpenAI-Compatible Server`
 4. Set environment:
    ```
-   MODEL=meta-llama/Llama-3.2-3B-Instruct
+   MODEL=Qwen/Qwen2.5-3B-Instruct
    ```
 5. Expose port `8000`
 6. Copy the pod URL and set in your app:
@@ -227,6 +227,5 @@ This project successfully implements a production-ready RAG pipeline for legal d
 1. Lewis, P., et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. NeurIPS.
 2. Reimers, N., & Gurevych, I. (2019). *Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks*. EMNLP.
 3. Kwon, W., et al. (2023). *Efficient Memory Management for Large Language Model Serving with PagedAttention*. SOSP.
-4. LangChain Documentation. https://docs.langchain.com
-5. ChromaDB Documentation. https://docs.trychroma.com
-6. vLLM Documentation. https://docs.vllm.ai
+4. ChromaDB Documentation. https://docs.trychroma.com
+5. vLLM Documentation. https://docs.vllm.ai

@@ -13,15 +13,15 @@ from __future__ import annotations
 import logging
 import time
 import uuid
-from dataclasses import dataclass, field
-from typing import List, Dict, Any, Optional
+from dataclasses import dataclass
+from typing import List, Dict, Any
 
 import chromadb
 from chromadb.config import Settings
 from openai import OpenAI
 from sentence_transformers import SentenceTransformer
 
-import config
+from app import config
 
 logger = logging.getLogger(__name__)
 
