@@ -37,15 +37,15 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 # Local imports (after logging so init messages are visible)
 # ---------------------------------------------------------------------------
-import config  # noqa: E402
-from rag_pipeline import RAGPipeline, QueryResult  # noqa: E402
+from app import config  # noqa: E402
+from app.rag_pipeline import RAGPipeline, QueryResult  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # App setup
 # ---------------------------------------------------------------------------
 app = FastAPI(
     title="Legal AI Assistant",
-    description="RAG-based legal document Q&A powered by LangChain + ChromaDB + vLLM",
+    description="RAG-based legal document Q&A powered by ChromaDB + vLLM",
     version="1.0.0",
 )
 

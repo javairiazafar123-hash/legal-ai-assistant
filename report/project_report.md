@@ -37,7 +37,7 @@ This project builds a **Legal AI Assistant** that allows users to upload legal d
 |---|---|
 | Chunk size | 500 characters |
 | Chunk overlap | 50 characters |
-| Splitter | `RecursiveCharacterTextSplitter` |
+| Splitter | Custom character-window splitter implemented in `app/rag_pipeline.py` |
 
 Documents are split into overlapping chunks to preserve context at boundaries.
 
@@ -119,7 +119,7 @@ Answer:
 |---|---|
 | Frontend UI | Streamlit + HTML/CSS/JS |
 | API Backend | FastAPI (Python) |
-| RAG Pipeline | LangChain |
+| RAG Pipeline | Custom Python pipeline (`app/rag_pipeline.py`) |
 | Embeddings | sentence-transformers |
 | Vector Store | ChromaDB |
 | LLM Serving | vLLM (OpenAI-compatible) |
@@ -227,6 +227,5 @@ This project successfully implements a production-ready RAG pipeline for legal d
 1. Lewis, P., et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. NeurIPS.
 2. Reimers, N., & Gurevych, I. (2019). *Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks*. EMNLP.
 3. Kwon, W., et al. (2023). *Efficient Memory Management for Large Language Model Serving with PagedAttention*. SOSP.
-4. LangChain Documentation. https://docs.langchain.com
-5. ChromaDB Documentation. https://docs.trychroma.com
-6. vLLM Documentation. https://docs.vllm.ai
+4. ChromaDB Documentation. https://docs.trychroma.com
+5. vLLM Documentation. https://docs.vllm.ai

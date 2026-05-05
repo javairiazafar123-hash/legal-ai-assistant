@@ -62,7 +62,7 @@ dl-project/
 
 - 📄 **Upload PDF or TXT** legal documents
 - 🔍 **Semantic search** via ChromaDB + sentence-transformers
-- 🤖 **LLM answers** grounded in your document (no hallucination)
+- 🤖 **LLM answers** grounded in retrieved document excerpts
 - 📚 **Source citations** — every answer shows which chunks it came from
 - 🎨 **Two UIs** — Streamlit app + HTML/JS web interface
 - 🐳 **Docker ready** — one command to containerize
@@ -147,7 +147,7 @@ curl -X POST http://localhost:8080/query \
 
 ## 📊 Report
 
-See [`report/project_report.md`](report/project_report.md) for the full academic report including methodology, architecture, evaluation metrics, and deployment guide.
+See [`report/project_report.md`](report/project_report.md) for the full academic report including methodology, architecture, evaluation plan, and deployment guide.
 
 ---
 
